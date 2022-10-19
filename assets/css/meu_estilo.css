@@ -6,7 +6,7 @@
 
 nav {
     height: 50px;
-    background-color: #484848;
+    background-color: #505bf3b2;
     color: #c8c8c8;
     display: flex;
     align-items: center;
@@ -23,26 +23,33 @@ nav li{
 }
 a {
     text-decoration: none;
-    color: orange;
+    color: rgb(26, 63, 133);
 }
 a:hover{
-color:#8961b5;
+color:#ffe4fa;
 }
 
 section{
     min-height: 480px;
-    background-color: #484848;
-    color: orange;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px;
-    border: 2px dotted #8961b5;
+    border: 2px dotted #ffffff;
 }
 
+section:hover{
+    background-color: #f0ebff;
+    color:rgb(26, 63, 133);
+}
+h1{
+    color: rgb(45, 58, 173);
+}
 .comando-git{
     padding: 5px;
     font-size: 1.25rem;
-    border: 3px solid #9929a3;
+    border: 3px solid #a793ff;
     background-color: #c9c8c8;
-    color:#484848;
+    color:#2957bb;
 }
 
 p{
