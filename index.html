@@ -1,95 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-<title>Meu site pessoal</title>
 
-<link 
-href="./assets/css/meu_estilo.css"
-type="text/css"
-rel="stylesheet"
->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu site pessoal</title>
+
+    <link href="./assets/css/meu_estilo.css" type="text/css" rel="stylesheet">
 
 </head>
+
 <body>
     <nav>
 
-    <li><a href="#home">Home</a></li>
-    <li><a href="#projetos">Projetos</a></li>
-    <li><a href="#redes_sociais">Redes sociais</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#redes_sociais">Redes sociais</a></li>
 
     </nav>
     <div class="conteudo">
-    <section id="home">
-        <h1>O que é o Git e o Github?</h1>
-        <div>
-            <br>
-            Git e Github são utilizados no dia a dia das pessoas que criam software por um motivo bem simples: ter uma forma fácil de gerenciar o código fonte da aplicação, <br> do sistema, do produto.
-            <br><br>
-            Em um time pequeno, algumas pessoas ainda tentam tomar conta desses arquivos de maneiras um tanto questionáveis: compartilhar diretórios na rede, utilizar ferramentas como Dropbox, ou manter tudo em um servidor de FTP. Práticas totalmente desaconselhadas.
-            <br><br><hr><br>
-            <h1>Git </h1>
-            <br>
-            Apenas poder acessar o código dos outros colaboradores não é suficiente. Precisamos manter o histórico dos nossos arquivos. Mais: das nossas modificações, pois muitas vezes mudamos arquivos em grupo, num movimento único (um commit). Dessa forma, podemos voltar atrás e recuperar o estado do sistema como ele era ontem, ou no ano passado, e comparar as mudanças, para encontrar bug, para estudar otimizações.<br>
-            <br>
-            Todos nossos arquivos, assim como seus históricos, ficam em um repositório e existiam vários sistemas que gerenciavam repositórios assim, como CVS e SVN. O Git é uma alternativa que tem um funcionamento mais interessante ainda: ele é distribuído e todo mundo tem uma cópia inteira do repositório, não apenas o "servidor principal". Isso trás grandes vantagens que você não precisa aprender nesse exato momento.<br>
-            <br>
-            O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando espaço dos outros sistemas de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds, e ganhou o coração das pessoas que trabalham com open source.
-            <br><br><hr><br>
-            <h1>GitHub </h1>
-            <br>
-            O Github tem sim muita relação com o Git. GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs, utilizando o Git como sistema de controle. Ele vai facilitar o uso do Git, escondendo alguns detalhes mais complicados de setup. É lá que você provavelmente vai ter seu repositório e usar no dia a dia.<br>
-            <br>
-            O sistema web que ele possui permite que você altere arquivos lá mesmo, apesar de não ser muito aconselhado, pois você não terá um editor, um ambiente de desenvolvimento e testes. Para se comunicar com o github e mexer nos arquivos do seu reposítorio, você pode usar a linha de comando, usando o comando do git e suas diretivas de commit, pull e push. Parece assustador? Há uma alternativa: usar um aplicativo desktop mais intuitivo, o GitHub Desktop.<br>
-            <br><br><hr><br>
-        </div>
+        <section id="home">
+            <h1>O que é o Git e o Github?</h1>
+            <div>
+                <br>
+                Git e Github são utilizados no dia a dia das pessoas que criam software por um motivo bem simples: ter
+                uma forma fácil de gerenciar o código fonte da aplicação, <br> do sistema, do produto.
+                <br><br>
+                Em um time pequeno, algumas pessoas ainda tentam tomar conta desses arquivos de maneiras um tanto
+                questionáveis: compartilhar diretórios na rede, utilizar ferramentas como Dropbox, ou manter tudo em um
+                servidor de FTP. Práticas totalmente desaconselhadas.
+                <br><br>
+                <hr><br>
+                <h1>Git </h1>
+                <br>
+                Apenas poder acessar o código dos outros colaboradores não é suficiente. Precisamos manter o histórico
+                dos nossos arquivos. Mais: das nossas modificações, pois muitas vezes mudamos arquivos em grupo, num
+                movimento único (um commit). Dessa forma, podemos voltar atrás e recuperar o estado do sistema como ele
+                era ontem, ou no ano passado, e comparar as mudanças, para encontrar bug, para estudar otimizações.<br>
+                <br>
+                Todos nossos arquivos, assim como seus históricos, ficam em um repositório e existiam vários sistemas
+                que gerenciavam repositórios assim, como CVS e SVN. O Git é uma alternativa que tem um funcionamento
+                mais interessante ainda: ele é distribuído e todo mundo tem uma cópia inteira do repositório, não apenas
+                o "servidor principal". Isso trás grandes vantagens que você não precisa aprender nesse exato
+                momento.<br>
+                <br>
+                O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando
+                espaço dos outros sistemas de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds,
+                e ganhou o coração das pessoas que trabalham com open source.
+                <br><br>
+                <hr><br>
+                <h1>GitHub </h1>
+                <br>
+                O Github tem sim muita relação com o Git. GitHub é uma plataforma para gerenciar seu código e criar um
+                ambiente de colaboração entre devs, utilizando o Git como sistema de controle. Ele vai facilitar o uso
+                do Git, escondendo alguns detalhes mais complicados de setup. É lá que você provavelmente vai ter seu
+                repositório e usar no dia a dia.<br>
+                <br>
+                O sistema web que ele possui permite que você altere arquivos lá mesmo, apesar de não ser muito
+                aconselhado, pois você não terá um editor, um ambiente de desenvolvimento e testes. Para se comunicar
+                com o github e mexer nos arquivos do seu reposítorio, você pode usar a linha de comando, usando o
+                comando do git e suas diretivas de commit, pull e push. Parece assustador? Há uma alternativa: usar um
+                aplicativo desktop mais intuitivo, o GitHub Desktop.<br>
+                <br><br>
+                <hr><br>
+            </div>
 
 
-        <p class="comando-git">
-            git status
-        </p>
-        <p>Prepara um arquivo para ser versionado.</p>
-        <p class="comando-git">
-            git add nome_de_um_arquivo
-        </p>
-        <p>Gera a versão das modificações</p>
-        <p class="comando-git">
-            git commit -m "uma mensagem legal do que foi feito nos arquivos
-            nessa versão"
-        </p>
-        <p>Envia para o Github</p>
-        <p class="comando-git">
-            git push origin main
-        </p>
-    </section>
-    <section id="projetos">
-        <div class="projeto">
-        <img src="./assets/img/html.png" width="50%" height="50%" alt="">
-        <div>
-            <p>UM resumo legal de um projeto</p>
-        <div class="labels">
-            <span>HTML</span>
-        </div>
+            <p class="comando-git">
+                git status
+            </p>
+            <p>Prepara um arquivo para ser versionado.</p>
+            <p class="comando-git">
+                git add nome_de_um_arquivo
+            </p>
+            <p>Gera a versão das modificações</p>
+            <p class="comando-git">
+                git commit -m "uma mensagem legal do que foi feito nos arquivos
+                nessa versão"
+            </p>
+            <p>Envia para o Github</p>
+            <p class="comando-git">
+                git push origin main
+            </p>
+        </section>
+        <section id="projetos">
+            <div class="projeto">
+                <img src="./assets/img/CSS (3).png" alt="">
+                <div>
+                    <p> </p>
+                    <div class="labels">
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projeto">
+                <img src="./assets/img/CSS (2).png" >
+                <div>
+                    <p> </p>
+                    <div class="labels">
+                        <span>Javascript</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projeto">
+                <img src="./assets/img/CSS.png" >
+                <div>
+                    <p> </p>
+                    <div class="labels">
+                        <span>Javascript</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+
+        
+        </section>
+        <section id="redes_sociais">
+  
+            <div class="rede_social">
+                <img src="./assets/img/Design sem nome (4).png"  alt="">
+                <div>
+                    <div class="labels">
+                        <span>TWITTER</span>
+                        <a href="https://twitter.com/anajuuca">  ➝ anajuuca</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rede_social">
+                <img src="./assets/img/Design sem nome (3).png"  alt="">
+                <div>
+                    <div class="labels">
+                        <span>INSTAGRAM</span>
+                        <a href="https://www.instagram.com/anicaasv">  ➝ anicaasv</a>
+                    </div>
+                </div>
+            </div>
+
+              
+            <div class="rede_social">
+                <img src="./assets/img/Design sem nome.png"  alt="">
+                <div>
+                    <div class="labels">
+                        <span>TIKTOK</span>
+                        <a href="https://www.tiktok.com/@euuanica">  ➝ euuanica</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="rede_social">
+                <img src="./assets/img/spotify.blog_.jpg"  alt="">
+                <div>
+                    <div class="labels">
+                        <span>SPOTIFY</span>
+                        <a href="https://open.spotify.com/user/yzpm87sqsyujklp351v8ut7ma?si=509210c38686476f">  ➝ anica</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </div>
-</div>
-<div class="projeto">
-    <img src="./assets/img/54cd7e80-6142-11e9-8f2e-c3774582a097.png" width="50%" height="50%">
-    <div>
-        <p>UM resumo legal de um projeto</p>
-    <div class="labels">
-        <span>Javascript</span>
-        <span>CSS</span>
-    </div>
-</div>
-</div>
-    </section>
-    <section id="redes_sociais">
-        aqui vai ter as redes sociais
-    </section>
-</div>
     <footer> vai ter um rodapé </footer>
+
+
 </body>
+
 </html>

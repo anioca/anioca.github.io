@@ -68,13 +68,32 @@ p{
 }
 
 .projeto{
-    height: 200px;
+    height: 300px;
     width: 300px;
     border: #a793ff solid 5px;
     margin: 10px;
 }
 
-projeto>img{
+#redes_sociais{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.rede_social{
+    height: 300px;
+    width: 300px;
+    border: #a793ff solid 5px;
+    margin: 10px;
+    
+}
+
+.rede_social>img{
+    width: 100%;
+}
+.projeto>img{
     width: 100%;
 }
 
@@ -83,4 +102,5 @@ projeto>img{
     background-color: rgb(194, 91, 1);
     border-radius: 100px;
     padding: 2px 5px;
+
 }
