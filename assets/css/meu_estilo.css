@@ -104,3 +104,10 @@ p{
     padding: 2px 5px;
 
 }
+
+footer{
+    background-color: #505bf3b2;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
